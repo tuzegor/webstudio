@@ -1,0 +1,32 @@
+@media screen and (max-width: 1199px) {
+  .projects-section {
+    display: none;
+  }
+}
+.projects-section {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.projects {
+  &__item {
+    position: relative;
+  }
+
+  &__title {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
